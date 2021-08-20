@@ -1,5 +1,4 @@
 class Player:
-
     def __init__(self, name, health, strength, speed):
         self.name = name
         self.health = health
@@ -25,7 +24,6 @@ class Player:
 
 
 class Monster:
-
     def __init__(self, health, strength, speed):
         self.health = health
         self.strength = strength
@@ -36,12 +34,9 @@ class Monster:
 
 
 class Object:
-
     def __init__(self, name, effect):
         self.name = name
         self.effect = effect
 
     def __str__(self):
         print(f'{self.name}')
-
-
